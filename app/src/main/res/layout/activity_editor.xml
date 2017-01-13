@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/material_margin"
+    tools:context=".activity.EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Overview Category-->
+        <LinearLayout
+            style="@style/LayoutStyleOne">
+
+            <TextView
+                style="@style/CategoryTextStyle"
+                android:text="@string/category_overview"/>
+
+            <LinearLayout
+                style="@style/LayoutStyleTwo">
+
+                <EditText
+                    android:id="@+id/edit_pet_name"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/hint_pet_name"
+                    android:inputType="textCapWords"/>
+
+                <EditText
+                    android:id="@+id/edit_pet_breed"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/hint_pet_breed"
+                    android:inputType="textCapWords"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Gender Category-->
+        <LinearLayout
+            style="@style/LayoutStyleOne">
+
+            <TextView
+                style="@style/CategoryTextStyle"
+                android:text="@string/category_gender"/>
+
+            <LinearLayout
+                style="@style/LayoutStyleTwo">
+
+                <Spinner
+                    android:id="@+id/spinner_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spinner_height"
+                    android:spinnerMode="dropdown"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Measurement Category-->
+        <LinearLayout
+            style="@style/LayoutStyleOne">
+
+            <TextView
+                style="@style/CategoryTextStyle"
+                android:text="@string/category_measurement"/>
+
+            <LinearLayout
+                style="@style/LayoutStyleTwo">
+
+                <EditText
+                    android:id="@+id/edit_pet_age"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/hint_pet_age"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/edit_pet_weight"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/hint_pet_weight"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Other Category-->
+        <LinearLayout
+            style="@style/LayoutStyleOne">
+
+            <TextView
+                style="@style/CategoryTextStyle"
+                android:text="@string/category_other"/>
+
+            <LinearLayout
+                style="@style/LayoutStyleTwo">
+
+                <LinearLayout
+                    style="@style/LayoutStyleOne">
+
+                    <CheckBox
+                        android:id="@+id/check_box_bites"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"/>
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:text="@string/hint_bites"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/LayoutStyleOne">
+
+                    <CheckBox
+                        android:id="@+id/check_box_sick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"/>
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:text="@string/hint_sick"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.choliy.igor.shelter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.choliy.igor.shelter.activity.CatalogActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.choliy.igor.shelter.activity.EditorActivity"
+            android:label="@string/editor_activity_title_new_pet"
+            android:parentActivityName="com.choliy.igor.shelter.activity.CatalogActivity"
+            android:theme="@style/EditorTheme"/>
+
+        <provider
+            android:name=".data.PetProvider"
+            android:authorities="com.choliy.igor.shelter"
+            android:exported="false"
+            android:label="@string/content_provider_label"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Label -->
+    <string name="app_name">Shelter</string>
+
+    <!-- ContentProvider Label -->
+    <string name="content_provider_label">This provider gives access to all pets in Pets.db</string>
+
+    <!-- CatalogActivity -->
+    <string name="empty_view_title_text">It\'s a bit lonely here…</string>
+    <string name="empty_view_subtitle_text">Get started by adding a pet</string>
+    <!-- (icons) -->
+    <string name="ic_action_info">Info</string>
+    <string name="ic_action_delete_all">Delete All Pets</string>
+
+    <!-- EditorActivity -->
+    <string name="editor_activity_title_new_pet">Add a Pet</string>
+    <string name="editor_activity_title_edit_pet">Edit Pet</string>
+    <!-- (icons) -->
+    <string name="ic_action_save">Save</string>
+    <string name="ic_action_clear">Clear</string>
+    <string name="ic_action_delete">Delete</string>
+    <!-- (categories) -->
+    <string name="category_overview">Overview</string>
+    <string name="category_gender">Gender</string>
+    <string name="category_measurement">Measurement</string>
+    <string name="category_other">Other</string>
+    <!-- (hints) -->
+    <string name="hint_pet_name">Name</string>
+    <string name="hint_pet_breed">Breed</string>
+    <string name="hint_pet_age">Age (year)</string>
+    <string name="hint_pet_weight">Weight (kg)</string>
+    <string name="hint_bites">Bites</string>
+    <string name="hint_sick">Sick</string>
+    <!-- (gender) -->
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_unknown">Unknown</string>
+
+    <!-- List Item -->
+    <string name="list_item_unknown_breed">Unknown breed</string>
+    <string name="list_item_text_age">Age:</string>
+    <string name="list_item_text_weight">Weight:</string>
+
+    <!-- Info Dialog -->
+    <string name="dialog_info_title">Shelter Info</string>
+    <string name="dialog_info_message">This App was built for practice with:
+    \n\n• ContentProvider\n• ContentResolver\n• UriMatcher\n• CursorAdapter\n• CursorLoader</string>
+    <string name="dialog_info_button">Close</string>
+
+    <!-- Delete Dialog -->
+    <string name="dialog_message_delete_all">Do you really want to delete all pets from Shelter?</string>
+    <string name="dialog_message_delete">Do you want to delete this pet from Shelter?</string>
+    <string name="dialog_message_clear">Do you want to clear data?</string>
+    <string name="dialog_button_yes">Yes</string>
+    <string name="dialog_button_no">No</string>
+
+    <!-- Unsaved Dialog -->
+    <string name="dialog_unsaved_message">Discard your changes and quit editing?</string>
+    <string name="dialog_unsaved_discard">Discard</string>
+    <string name="dialog_unsaved_keep_editing">Keep Editing</string>
+
+    <!-- SnackBar -->
+    <string name="snack_bar_undo">Undo</string>
+
+    <!-- Info text -->
+    <string name="info_insert_pet_successful">Pet added</string>
+    <string name="info_update_pet_successful">Pet updated</string>
+    <string name="info_delete_pet_successful">Pet deleted</string>
+    <string name="info_pet_restored">Pet data restored</string>
+    <string name="info_pets_restored">Pets data restored</string>
+    <string name="info_insert_pet_failed">Error with saving pet</string>
+    <string name="info_update_pet_failed">Error with editing pet</string>
+    <string name="info_delete_pet_failed">Error with delete pet</string>
+    <string name="info_enter_pet_name">Enter name of the pet</string>
+    <string name="info_data_cleaned">Data have been cleaned</string>
+    <string name="info_all_pets_deleted">All pets has been deleted</string>
+    <string name="info_empty_shelter">Shelter is already empty</string>
+
+    <!-- Content Description -->
+    <string name="pet_gender_image">pet gender image</string>
+    <string name="empty_shelter">empty shelter</string>
+
+</resources>

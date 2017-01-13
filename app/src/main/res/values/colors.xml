@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="catalog_color_primary">#673AB7</color>
+    <color name="catalog_color_primary_dark">#4527A0</color>
+    <color name="color_accent">#7E57C2</color>
+    <color name="editor_color_primary">#37474F</color>
+    <color name="editor_color_primary_dark">#263238</color>
+    <color name="text_color_primary">#424242</color>
+    <color name="text_color_secondary">#616161</color>
+</resources>
